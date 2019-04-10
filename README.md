@@ -29,6 +29,8 @@ emoji.winking_face
  => 😜
 emoji.tears_of_joy
  => 😂
+ 
+Refer to all aliases here: https://simple-emoji.herokuapp.com/
 
 ## Development
 A emoji is enclosed within a span tag. &#128521 is the decimal code for the emoji 😜
