@@ -31,7 +31,7 @@ emoji.tears_of_joy
  => 😂
 
 ## Development
-A emoji is enclosed within a span tag. The actual code rendered is "<span class="emoji-winking-face">&#128521</span>" which gives flexibility for css. 
+A emoji is enclosed within a span tag. The actual code rendered is `"<span class=\"emoji-winking-face\">&#128521</span>"` which gives flexibility for css. 
 
 &#128521 is the decimal code for the emoji 😜
 
