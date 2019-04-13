@@ -16,9 +16,11 @@ module SimpleEmoji
 
       @emoji_list = emoji_list
 
-      emoji_list.each do |key, value|
-        self.class.send(:define_method, "#{key}") do
-          content_tag(:span, value, { class: "emoji-#{key}" }, false)
+      emoji_list.each do |emoji_type, emoji_type_lists|
+        emoji_type_lists.each do |key, value|
+          self.class.send(:define_method, "#{key}") do
+            content_tag(:span, value, { class: "emoji-#{key}" }, false)
+          end
         end
       end
     end
