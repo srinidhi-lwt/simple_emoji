@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple_emoji (1.1.0)
+    simple_emoji (1.2.0)
 
 GEM
   remote: https://rubygems.org/
